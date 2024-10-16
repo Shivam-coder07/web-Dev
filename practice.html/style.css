@@ -1,0 +1,29 @@
+
+.tb {
+    border: 2px solid black;
+    border-collapse: collapse
+}
+.banner { 
+  width: 400px;
+  height: 350px;
+  background-color: violet;
+  
+
+}
+
+.cl {
+    border: 2px solid red;
+    border-collapse: collapse
+}
+.tdata {
+    border: 2px solid green;
+    border-collapse:collapse
+}
+.heading{
+  background-color:brown; display: inline;  color: aliceblue; 
+}
+.rolla{
+
+border: 2px solid color blue;
+border-collapse: collapse ;
+}
