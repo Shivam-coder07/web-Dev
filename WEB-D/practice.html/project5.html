@@ -6,21 +6,31 @@
     <title>Document</title>
     <style>
         .container{
-            height: 100vh;
+            height: 50vh;
             display: grid;
-            background-color: yellow;
-            grid-template-columns:  100px 100px 100px 100px ;
-            grid-template-rows: 100px  100px 100px;
-            row-gap: 10px;
+            display: flex;
+            background-color: rgb(19, 19, 14);
+            grid-template-rows: repeat(auto-fill , 150px) ; 
+            grid-auto-rows: 250px; 
+            row-gap:20px;
             column-gap: 20px;
             justify-content: space-evenly;
             align-content: space-evenly;
-
         }
         .item{
-            border: 2px solid black;
+            border: 2px solid rgb(240, 232, 232); background-color: red;
             border-radius: 10px;
         }
+       /* @media (min-width:400px) and (max-width:700px){
+            .item{
+                width: 50%;
+            }
+        }
+        @media (min-width:700px) and (max-width:1200px){
+            .item{
+                width: 33.33%;
+            }
+        }*/
     </style>
 </head>
 <body>

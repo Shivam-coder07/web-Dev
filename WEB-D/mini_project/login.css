@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background: linear-gradient(135deg, #6ba8a9, #98d9e1);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login Container */
+.login-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Login Table Styling */
+.login-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.login-header h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Label Cell */
+.label-cell {
+    text-align: right;
+    padding: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Input Styling */
+input[type="text"], input[type="password"] {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #6ba8a9;
+}
+
+/* Button Cell */
+.button-cell {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #6ba8a9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #588c8d;
+}
+
+/* Signup Cell */
+.signup-cell {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.signup-cell a {
+    color: #6ba8a9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-cell a:hover {
+    text-decoration: underline;
+}
